@@ -1,0 +1,93 @@
+.logo {
+    height: 60px;
+    border: solid;
+    border-radius: 10px;
+    margin: 3px 0px 5px 10px;
+}
+
+.clients h3 {
+    text-shadow: 10px 10px 10px rgba(225, 225, 225);
+}
+
+.Shdw2 {
+    text-shadow: 5px 5px 5px #11acff;
+}
+
+.Shdw1 {
+    text-shadow: 5px 5px 5px #323742;
+}
+
+.Shdw {
+    text-shadow: 5px 5px 5px #11acff;
+}
+
+.parallax-container {
+    height: 450px;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 120px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0, 8));
+    margin-top: 20px;
+}
+
+section,
+footer {
+    padding: 20px 0px;
+}
+
+.Au,
+.Po,
+.Os,
+.Oc,
+.Cu {
+    margin: 50px 0px 50px;
+}
+
+.Cp {
+    margin: 65px 0px;
+}
+
+.Mi {
+    margin-top: 100px;
+}
+
+.btn {
+    background: linear-gradient(45deg, #11acff, #323742);
+    border: none;
+}
+
+.card-panel:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #323742, #11acff);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.parallax-container {
+    height: 500px;
+}
