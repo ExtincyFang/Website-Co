@@ -1,91 +1,300 @@
-<p align="center">
-  <a href="http://materializecss.com/">
-    <img src="http://materializecss.com/res/materialize.svg" width="150">
-  </a>
-</p>
 
-<h3 align="center">MaterializeCSS</h3>
+<!DOCTYPE html>
+<html>
 
-<p align="center">
-  Materialize, a CSS Framework based on material design.
-  <br>
-  <a href="http://materializecss.com/"><strong>-- Browse the docs --</strong></a>
-  <br>
-  <br>
-  <a href="https://travis-ci.org/Dogfalo/materialize">
-    <img src="https://travis-ci.org/Dogfalo/materialize.svg?branch=master" alt="Travis CI badge">
-  </a>
-  <a href="https://badge.fury.io/js/materialize-css">
-    <img src="https://badge.fury.io/js/materialize-css.svg" alt="npm version badge">
-  </a>
-  <a href="https://cdnjs.com/libraries/materialize">
-    <img src="https://img.shields.io/cdnjs/v/materialize.svg" alt="CDNJS version badge">
-  </a>
-  <a href="https://david-dm.org/Dogfalo/materialize">
-    <img src="https://david-dm.org/Dogfalo/materialize/status.svg" alt="dependencies Status badge">
-    </a>
-  <a href="https://david-dm.org/Dogfalo/materialize#info=devDependencies">
-    <img src="https://david-dm.org/Dogfalo/materialize/dev-status.svg" alt="devDependency Status badge">
-  </a>
-  <a href="https://gitter.im/Dogfalo/materialize">
-    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter badge">
-  </a>
-</p>
+<head>
 
-## Table of Contents
-- [Quickstart](#quickstart)
-- [Documentation](#documentation)
-- [Supported Browsers](#supported-browsers)
-- [Changelog](#changelog)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Copyright and license](#copyright-and-license)
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
-## Quickstart:
-Read the [getting started guide](http://materializecss.com/getting-started.html) for more information on how to use materialize.
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My Css -->
+    <link rel="stylesheet" href="Company.css">
+</head>
 
-- [Download the latest release](https://github.com/Dogfalo/materialize/releases/latest) of materialize directly from GitHub. ([Beta](https://github.com/Dogfalo/materialize/releases/))
-- Clone the repo: `git clone https://github.com/Dogfalo/materialize.git` (Beta: `git clone -b v1-dev https://github.com/Dogfalo/materialize.git`)
-- Include the files via [cdnjs](https://cdnjs.com/libraries/materialize). More [here](http://materializecss.com/getting-started.html). ([Beta](https://cdnjs.com/libraries/materialize/1.0.0-beta))
-- Install with [npm](https://www.npmjs.com): `npm install materialize-css` (Beta: `npm install materialize-css@next`)
-- Install with [Bower](https://bower.io): `bower install materialize` ([DEPRECATED](https://bower.io/blog/2017/how-to-migrate-away-from-bower/))
-- Install with [Atmosphere](https://atmospherejs.com): `meteor add materialize:materialize` (Beta: `meteor add materialize:materialize@=1.0.0-beta`)
+<body id="home" class="scrollspy">
 
-## Documentation
-The documentation can be found at <http://materializecss.com>. To run the documentation locally on your machine, you need [Node.js](https://nodejs.org/en/) installed on your computer.
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="">
+            <div class="container"></div>
+            <div class="nav-wrapper">
+                <a href="#home" class="brand-logo"><i class="material-icons"><img class="logo"
+                            src="imageInc/img/portfolio/logo.jpg" alt=""></i>CMP</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#client">Clients</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#porto">Portofolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-### Running documentation locally
-Run these commands to set up the documentation:
 
-```bash
-git clone https://github.com/Dogfalo/materialize
-cd materialize
-npm install
-```
+    <!-- Sidenav -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="">About Us</a></li>
+        <li><a href="">Clients</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="">Portofolio</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
 
-Then run `grunt monitor` to compile the documentation. When it finishes, open a new browser window and navigate to `localhost:8000`. We use [BrowserSync](https://www.browsersync.io/) to display the documentation.
 
-### Documentation for previous releases
-Previous releases and their documentation are available for [download](https://github.com/Dogfalo/materialize/releases).
+    <!-- Slider -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img class="bg" src="imageInc/img/slider/3.png">
+                <div class="caption right-align">
+                    <h3 class="Shdw1 light grey-text text-darken-3">Progamming</h3>
+                    <h5 class="Shdw1 light grey-text text-darken-3">Logic is Our Superpower!</h5>
+                </div>
+            </li>
+            <li>
+                <img class="bg" src="imageInc/img/slider/1.png">
+                <div class="caption center-align">
+                    <h3 class="Shdw light">Web Developer</h3>
+                    <h5 class="Shdw light grey-text text-lighten-3">Get the job done, get it right, and get it on time!
+                    </h5>
+                </div>
+            </li>
+            <li>
+                <img class="bg" src="imageInc/img/slider/2.png">
+                <div class="caption right-align">
+                    <h3 class="Shdw2 light blue-text text-darken-3">Blockchain</h3>
+                    <h5 class="Shdw2 light blue-text text-darken-3">Click, Chain, Change!</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
 
-## Supported Browsers:
-Materialize is compatible with:
 
-- Chrome 35+
-- Firefox 31+
-- Safari 9+
-- Opera
-- Edge
-- IE 11+
+    <!-- About Us -->
+    <section id="about" class="about scrollspy">
+        <div class="container">
+            <div class="row">
+                <h3 class="Au light center grey-text text-darken-3">About Us</h3>
+                <div class="col m6">
+                    <h5>We Are Profesional</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima neque, quia voluptatibus nobis libero maxime voluptate aspernatur voluptatum, magnam quis rerum quaerat. Voluptatibus voluptates delectus provident assumenda laudantium
+                        ab dolorum!</p>
 
-## Changelog
-For changelogs, check out [the Releases section of materialize](https://github.com/Dogfalo/materialize/releases) or the [CHANGELOG.md](CHANGELOG.md).
+                </div>
+                <div class="col m6 light">
+                    <p>Web Development</p>
+                    <div class="progress">
+                        <div class="determinate blue" style="width: 95%"></div>
+                    </div>
 
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](CONTRIBUTING.md#jasmine-testing-guide).
+                    <p>Mobile Web Development</p>
+                    <div class="progress">
+                        <div class="determinate blue" style="width: 90%"></div>
+                    </div>
 
-## Contributing
-Check out the [CONTRIBUTING document](CONTRIBUTING.md) in the root of the repository to learn how you can contribute. You can also browse the [help-wanted](https://github.com/Dogfalo/materialize/labels/help-wanted) tag in our issue tracker to find things to do.
+                    <p>Game Development</p>
+                    <div class="progress">
+                        <div class="determinate blue" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-## Copyright and license
-Code Copyright 2018 Materialize. Code released under the MIT license.
+
+    <!-- Clients -->
+    <div id="client" class="parallax-container scrollspy">
+        <div class="parallax"><img src="imageInc/img/slider/4.png"></div>
+
+        <div class="container clients">
+            <h3 class="Oc center light white-text">Our Clients</h3>
+            <div class="Mi row">
+                <div class="col m4 s12 center">
+                    <img src="imageInc/img/clients/gojek.png" alt="">
+                </div>
+                <div class="col m4 s12 center">
+                    <img src="imageInc/img/clients/tokopedia.png" alt="">
+                </div>
+                <div class="col m4 s12 center">
+                    <img src="imageInc/img/clients/traveloka.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services -->
+    <section class="services grey lighten-3 scrollspy" id="service">
+        <div class="container">
+            <div class=" Ms row">
+                <h3 class="Os light center grey-text text-darken-3">Our Services</h3>
+                <div class=" col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">desktop_windows</i>
+                        <h5>Web Development</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae velit animi esse mollitia voluptas tempore sit consectetur alias quasi ipsam, saepe dignissimos neque nostrum fugit vero debitis nesciunt quibusdam.</p>
+                    </div>
+                </div>
+                <div class=" col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">developer_mode</i>
+                        <h5>Mobile App</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae velit animi esse mollitia voluptas tempore sit consectetur alias quasi ipsam, saepe dignissimos neque nostrum fugit vero debitis nesciunt quibusdam.</p>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">games</i>
+                        <h5>Game Development</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae velit animi esse mollitia voluptas tempore sit consectetur alias quasi ipsam, saepe dignissimos neque nostrum fugit vero debitis nesciunt quibusdam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portofolio -->
+    <section id="porto" class="portofolio scrollspy">
+        <div class="container">
+            <h3 class="Po light center grey-text text-darken-3">Portofolio</h3>
+            <div class="row">
+                <div class="col m3 s12">
+                    <img src="imageInc/img/portfolio/1.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="imageInc/img/portfolio/2.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="imageInc/img/portfolio/3.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="imageInc/img/portfolio/4.png" class="responsive-img materialboxed">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m3 s12">
+                    <img src="imageInc/img/portfolio/6.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="imageInc/img/portfolio/5.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="imageInc/img/portfolio/4.png" class="responsive-img materialboxed">
+                </div>
+                <div class="col m3 s12">
+                    <img src="imageInc/img/portfolio/3.png" class="responsive-img materialboxed">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us -->
+    <section id="contact" class="contact grey lighten-3 scrollspy">
+        <div class="container">
+            <h3 class="Cu light grey-text text-darken-3 center">Contact Us</h3>
+            <div class="row">
+                <div class="col m5 s12">
+                    <div class="card-panel blue darken-2 center white-text">
+                        <i class="material-icons">email</i>
+                        <h5>Contact</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam asperiores suscipit amet, similique porro vero fugit perferendis obcaecati corporis iusto placeat corrupti eius omnis deleniti consectetur laudantium, facilis, maxime
+                            nulla?
+                        </p>
+                    </div>
+                    <ul class="collection with header">
+                        <li class="collection center">
+                            <h4>Our Office</h4>
+                        </li>
+                        <li class="collection-item">Company Profile Site</li>
+                        <li class="collection-item">Komplek Komersial BSD, Jl. Raya Serpong No.Kav.9, Lengkong Karya, Serpong Utara, South Tangerang City, Banten 15331</li>
+                        <li class="collection-item">West java, Indonesia</li>
+                    </ul>
+                </div>
+
+                <div class="col m7 s12">
+                    <form>
+                        <div class="Cp card-panel">
+                            <h5>Pliss fill out this form</h5>
+                            <div class="input-field">
+                                <input type="text" name="name" id="name" class="validate" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" name="email" id="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" name="phone" id="phone">
+                                <label for="phone">Phone number</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <button type="submit" class="btn blue darken-2">Send</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="blue darken-2 white-text center">
+        <p>Company Profile. copyright 2024</p>
+
+    </footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 400,
+            transition: 600,
+            interval: 3000
+        });
+
+        const parallax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax, )
+
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox)
+
+        const scroll = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll, {
+            scrollOffset: 50
+        });
+
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            if (name === '' || email === '') {
+                M.toast({
+                    html: 'Please fill all fields!'
+                });
+            } else {
+                M.toast({
+                    html: 'Form submitted successfully!'
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
